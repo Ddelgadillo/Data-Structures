@@ -7,6 +7,7 @@ public:
 	Stack(int size);
 	~Stack();
 	bool IsEmpty() const;
+	bool IsFull() const;
 	int Peek() const;
 	void Push(int num);
 	int Pop();

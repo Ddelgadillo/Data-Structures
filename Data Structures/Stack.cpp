@@ -23,6 +23,17 @@ bool Stack::IsEmpty() const
 	return false;
 }
 
+bool Stack::IsFull() const
+{
+	if (top + 1 >= SIZE)
+	{
+		std::cout << "Stack is Full!" << std::endl;
+		return true;
+	}
+
+	return false;
+}
+
 int Stack::Peek() const
 {
 	if (!IsEmpty())
@@ -33,8 +44,11 @@ int Stack::Peek() const
 
 void Stack::Push(int num)
 {
-	top++;
-	pStack[top] = num;
+	if (!IsFull())
+	{
+		top++;
+		pStack[top] = num;
+	}
 }
 
 int Stack::Pop()

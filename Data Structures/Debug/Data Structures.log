@@ -1,6 +1,4 @@
 ﻿  Stack.cpp
-  main.cpp
-  Generating Code...
-E:\Programming\C++\Data Structures\Data Structures\Stack.cpp(48): warning C4715: 'Stack::Pop': not all control paths return a value
-E:\Programming\C++\Data Structures\Data Structures\Stack.cpp(32): warning C4715: 'Stack::Peek': not all control paths return a value
+E:\Programming\C++\Data Structures\Data Structures\Stack.cpp(43): warning C4715: 'Stack::Peek': not all control paths return a value
+E:\Programming\C++\Data Structures\Data Structures\Stack.cpp(62): warning C4715: 'Stack::Pop': not all control paths return a value
   Data Structures.vcxproj -> E:\Programming\C++\Data Structures\Debug\Data Structures.exe
